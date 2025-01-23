@@ -1,0 +1,11 @@
+.hero-content-div {
+  background-image: none;
+}
+
+@media (max-width: 480px) {
+  .hero-content-div {
+    background-image: url(../../assets/BGImage.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
